@@ -25,7 +25,7 @@ public class SpringConfig extends WebSecurityConfigurerAdapter {
     private UsuarioService usuarioService;
     @Autowired
     private TokenService tokenService;
-    @Autowired
+
     private UsuarioRepository usuarioRepository;
 
     @Bean

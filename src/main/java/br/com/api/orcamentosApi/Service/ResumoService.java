@@ -19,14 +19,6 @@ public class ResumoService {
 
     @Autowired
     private DespesasRepository despesasRepository;
-
-
-    Despesa despesa = new Despesa();
-
-
-    Receita receita = new Receita();
-
-
     @Autowired
     private ReceitaRepository receitaRepository;
 

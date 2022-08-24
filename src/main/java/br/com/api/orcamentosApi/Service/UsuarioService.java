@@ -8,7 +8,6 @@ import br.com.api.orcamentosApi.Modelo.Usuario;
 import br.com.api.orcamentosApi.Repository.PerfilRepository;
 import br.com.api.orcamentosApi.Repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

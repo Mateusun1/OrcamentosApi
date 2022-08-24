@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/perfil")
 public class PerfilController {
 
-    @Autowired
+
     private PerfilRepository perfilRepository;
 
     @PostMapping("/cadastrar")
