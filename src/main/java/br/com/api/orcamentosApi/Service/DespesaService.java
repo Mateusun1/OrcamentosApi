@@ -42,8 +42,9 @@ public class DespesaService {
         return new DespesaDto(despesaId);
     }
 
-    public void deletar(Long id) {
+    public String deletar(Long id) {
         despesasRepository.deleteById(id);
+        return "Deletado com Sucesso!";
     }
 
     public List<DespesaDto> listarPorDescricao(String descricao) {

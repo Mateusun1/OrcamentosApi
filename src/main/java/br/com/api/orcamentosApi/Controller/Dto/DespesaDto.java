@@ -10,10 +10,8 @@ import java.time.LocalDate;
 @Getter
 @Setter
 public class DespesaDto {
-    private Long id;
     private String descricao;
     private BigDecimal valor;
-    private LocalDate data = LocalDate.now();
     private Categoria categoria;
 
 
@@ -21,10 +19,8 @@ public class DespesaDto {
 
     public DespesaDto(){}
     public DespesaDto (Despesa despesa){
-        this.id = despesa.getD_id();
         this.descricao = despesa.getDescricao();
         this.valor = despesa.getValor();
-        this.data = despesa.getData();
         this.categoria = despesa.getCategoria();
     }
 
