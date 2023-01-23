@@ -42,8 +42,9 @@ public class ReceitaService {
         return form.alterar(id, receitaRepository);
     }
 
-    public void deletar(Long id) {
+    public String deletar(Long id) {
         receitaRepository.deleteById(id);
+        return "Deletado com sucesso!";
     }
 
     public List<ReceitasDto> listarPorDescricao(String descricao) {

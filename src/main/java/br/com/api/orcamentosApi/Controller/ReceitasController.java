@@ -23,7 +23,7 @@ public class ReceitasController {
     }
 
     @GetMapping("/listar")
-    public List<ReceitasDto> listar(@RequestParam String descricao){
+    public List<ReceitasDto> listar(String descricao){
         if (descricao == null){
         return receitaService.listarTudo();
         }else{
